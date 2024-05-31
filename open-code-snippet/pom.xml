@@ -11,6 +11,7 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>open-code-snippet-basic</module>
+        <module>open-design-experience</module>
     </modules>
 
     <properties>
