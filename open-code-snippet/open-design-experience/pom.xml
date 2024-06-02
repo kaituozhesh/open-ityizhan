@@ -12,6 +12,7 @@
         <module>open-dingding</module>
         <module>open-async-task</module>
         <module>open-completable-future</module>
+        <module>open-general-basic-design</module>
     </modules>
 
     <properties>
