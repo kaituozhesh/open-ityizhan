@@ -10,7 +10,16 @@
   <name>open-ityizhan</name>
   <url>http://maven.apache.org</url>
   <modules>
+    <module>open-code-snippet</module>
+    <module>open-code-snippet/open-code-snippet-basic</module>
+    <module>open-code-snippet/open-design-experience</module>
+    <module>open-code-snippet/open-design-experience/open-async-task</module>
+    <module>open-code-snippet/open-design-experience/open-completable-future</module>
+    <module>open-code-snippet/open-design-experience/open-dingding</module>
     <module>open-code-snippet/open-design-experience/open-general-basic-design</module>
+    <module>open-wisdom</module>
+    <module>open-wisdom/open-wisdom-algorithm</module>
+    <module>open-wisdom/open-wisdom-leetcode</module>
   </modules>
 
   <properties>
@@ -18,11 +27,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+
   </dependencies>
 </project>

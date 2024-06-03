@@ -2,17 +2,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>com.open.ityizhan</groupId>
+    <artifactId>open-ityizhan</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
   <groupId>com.open.ityizhan</groupId>
   <artifactId>open-wisdom</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <name>open-wisdom</name>
   <url>http://maven.apache.org</url>
-  <modules>
-    <module>open-wisdom-algorithm</module>
-      <module>open-wisdom-leetcode</module>
-  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
