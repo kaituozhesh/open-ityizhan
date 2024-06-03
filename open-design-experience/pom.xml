@@ -15,10 +15,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>open-async-task</module>
-        <module>open-completable-future</module>
-        <module>open-dingding</module>
-        <module>open-general-basic-design</module>
+        <module>open-design-async-task</module>
+        <module>open-design-completable-future</module>
+        <module>open-design-dingding</module>
+        <module>open-design-general-basic</module>
     </modules>
 
     <properties>
