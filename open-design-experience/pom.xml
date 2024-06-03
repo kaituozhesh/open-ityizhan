@@ -7,7 +7,6 @@
         <groupId>com.open.ityizhan</groupId>
         <artifactId>open-ityizhan</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <groupId>com.open.ityizhan</groupId>

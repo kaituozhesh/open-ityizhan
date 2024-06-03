@@ -12,11 +12,11 @@
   <modules>
     <module>open-code-snippet</module>
     <module>open-code-snippet/open-code-snippet-basic</module>
-    <module>open-code-snippet/open-design-experience</module>
-    <module>open-code-snippet/open-design-experience/open-async-task</module>
-    <module>open-code-snippet/open-design-experience/open-completable-future</module>
-    <module>open-code-snippet/open-design-experience/open-dingding</module>
-    <module>open-code-snippet/open-design-experience/open-general-basic-design</module>
+    <module>open-design-experience</module>
+    <module>open-design-experience/open-async-task</module>
+    <module>open-design-experience/open-completable-future</module>
+    <module>open-design-experience/open-dingding</module>
+    <module>open-design-experience/open-general-basic-design</module>
     <module>open-wisdom</module>
     <module>open-wisdom/open-wisdom-algorithm</module>
     <module>open-wisdom/open-wisdom-leetcode</module>
