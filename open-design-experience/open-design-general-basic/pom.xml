@@ -16,6 +16,57 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>cn.smallbun.screw</groupId>
+                <artifactId>screw-maven-plugin</artifactId>
+                <version>1.0.5</version>
+                <dependencies>
+                    <!-- HikariCP -->
+                    <dependency>
+                        <groupId>com.zaxxer</groupId>
+                        <artifactId>HikariCP</artifactId>
+                        <version>3.4.5</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.postgresql</groupId>
+                        <artifactId>postgresql</artifactId>
+                        <version>42.2.5</version>
+                    </dependency>
+                    <!--mysql driver-->
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>8.0.20</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <username>temp</username>
+                    <password>Olym@2019#</password>
+                    <driverClassName>org.postgresql.Driver</driverClassName>
+                    <jdbcUrl>
+                        jdbc:postgresql://pgm-bp1o2r8p98c33mf1no.pg.rds.aliyuncs.com:5432/temp?currentSchema=datawarehouse
+                    </jdbcUrl>
+                    <fileType>HTML</fileType>
+                    <!--打开文件输出目录-->
+                    <openOutputDir>true</openOutputDir>
+                    <!--生成模板-->
+                    <produceType>freemarker</produceType>
+                    <fileName>测试pg</fileName>
+                    <description>数据库文档生成</description>
+                    <version>${project.version}</version>
+                    <title>数据库文档</title>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
