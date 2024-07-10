@@ -23,5 +23,10 @@
             <artifactId>netty</artifactId>
             <version>3.2.5.Final</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.12</version>
+        </dependency>
     </dependencies>
 </project>
