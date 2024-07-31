@@ -19,6 +19,7 @@
         <module>open-design-completable-future</module>
         <module>open-design-dingding</module>
         <module>open-design-general-basic</module>
+        <module>open-design-rebuild</module>
     </modules>
 
     <properties>
@@ -38,6 +39,11 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.7.12</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
     </dependencies>
 </project>
