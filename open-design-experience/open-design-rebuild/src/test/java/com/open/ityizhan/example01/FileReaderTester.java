@@ -46,7 +46,8 @@ public class FileReaderTester extends TestCase {
     }
 
     public static void main(String[] args) {
-        TestRunner.run(suite());
+//        TestRunner.run(suite());
+        TestRunner.run(new TestSuite(FileReaderTester.class));
     }
 
 

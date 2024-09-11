@@ -46,7 +46,7 @@
                     <password>Olym@2019#</password>
                     <driverClassName>org.postgresql.Driver</driverClassName>
                     <jdbcUrl>
-                        jdbc:postgresql://pgm-bp1o2r8p98c33mf1no.pg.rds.aliyuncs.com:5432/temp?currentSchema=datawarehouse
+                        jdbc:postgresql://pgm-bp1o2r8p98c33mf1no.pg.rds.aliyuncs.com:5432/temp?currentSchema=dw_ship
                     </jdbcUrl>
                     <fileType>HTML</fileType>
                     <!--打开文件输出目录-->
