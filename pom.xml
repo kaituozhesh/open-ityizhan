@@ -13,6 +13,8 @@
     <module>open-code-snippet</module>
     <module>open-design-experience</module>
     <module>open-wisdom</module>
+      <module>open-jvm</module>
+      <module>open-currency</module>
   </modules>
 
   <properties>

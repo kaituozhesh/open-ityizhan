@@ -1,7 +1,7 @@
 package com.open.ityizhan.wisdom.algorithm.基础;
 
 /**
- * @Description:
+ * @Description: 1 + (1 * 2) + (1 * 2 * 3) + (1 * 2 * 3 * 4)
  * @ClassName: 练习01_阶乘
  * @Auther: lin
  * @Date: 2024/9/28 10:22
@@ -10,7 +10,7 @@ package com.open.ityizhan.wisdom.algorithm.基础;
 public class 练习01_阶乘 {
 
     public static void main(String[] args) {
-        int N = 3;
+        int N = 4;
         System.out.println(f1(N));
         System.out.println(f2(N));
     }
